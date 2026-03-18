@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Three Kingdoms Chess - 遊戲指南</title>
+    <style>
+        body {
+            background: #f4ece0; /* 仿古紙色 */
+            color: #3e2723;
+            font-family: "微軟正黑體", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fdfaf2;
+            padding: 40px;
+            border: 2px solid #8b4513;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #8b4513;
+            border-bottom: 3px double #8b4513;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #5d4037;
+            border-left: 5px solid #8b4513;
+            padding-left: 15px;
+            margin-top: 30px;
+        }
+        .highlight { color: #d32f2f; font-weight: bold; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td { border: 1px solid #d7ccc8; }
+        th, td { padding: 12px; text-align: left; }
+        th { background: #efebe9; }
+        .back-to-game {
+            display: inline-block;
+            margin-top: 40px;
+            color: #8b4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
+<div class="container">
+    <h1>📜 戰棋指南：天下大勢</h1>
+
+    <section>
+        <h2>1. 基礎操作</h2>
+        <p>點擊地圖上的武將可以查看詳細數值。使用右側控制盤進行：</p>
+        <ul>
+            <li><span class="highlight">▲▼◀▶</span>：移動武將至相鄰格。</li>
+            <li><span class="highlight">招</span>：發動武將特有技能（需冷卻完畢）。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. 勢力與資源</h2>
+        <p>左側面板顯示當前天下各大勢力的狀況：</p>
+        <table>
+            <tr>
+                <th>項目</th>
+                <th>說明</th>
+            </tr>
+            <tr>
+                <td>💰 財富值</td>
+                <td>用於徵兵與城市建設。</td>
+            </tr>
+            <tr>
+                <td>📈 繁榮度</td>
+                <td>代表勢力的影響力，分數越高排名越前。</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>3. 羈絆系統 (預計加入)</h2>
+        <p>當特定武將同時處於戰場時，將觸發強大加成。例如：</p>
+        <p><i>「桃園三結義」：劉備、關羽、張飛在場時，攻擊力提升 15%。</i></p>
+    </section>
+
+    <a href="index.html" class="back-to-game">⬅ 返回戰場</a>
+</div>
+
+</body>
+</html>
